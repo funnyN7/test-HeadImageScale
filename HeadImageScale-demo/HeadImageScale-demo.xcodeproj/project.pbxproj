@@ -15,6 +15,9 @@
 		1A4479341C2A87DD00A31D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4479321C2A87DD00A31D8E /* LaunchScreen.storyboard */; };
 		1A44793F1C2A87DD00A31D8E /* HeadImageScale_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44793E1C2A87DD00A31D8E /* HeadImageScale_demoTests.m */; };
 		1A44794A1C2A87DD00A31D8E /* HeadImageScale_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4479491C2A87DD00A31D8E /* HeadImageScale_demoUITests.m */; };
+		A8D118BF1C2AE2D800D416EE /* testCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D118BE1C2AE2D800D416EE /* testCell.m */; };
+		A8D118C11C2AE5C200D416EE /* testCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D118C01C2AE5C200D416EE /* testCell.xib */; };
+		A8D118C51C2AE71400D416EE /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8D118C41C2AE71400D416EE /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		1A4479451C2A87DD00A31D8E /* HeadImageScale-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeadImageScale-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4479491C2A87DD00A31D8E /* HeadImageScale_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadImageScale_demoUITests.m; sourceTree = "<group>"; };
 		1A44794B1C2A87DD00A31D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D118BD1C2AE2D800D416EE /* testCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testCell.h; sourceTree = "<group>"; };
+		A8D118BE1C2AE2D800D416EE /* testCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCell.m; sourceTree = "<group>"; };
+		A8D118C01C2AE5C200D416EE /* testCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testCell.xib; sourceTree = "<group>"; };
+		A8D118C41C2AE71400D416EE /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +112,12 @@
 				1A4479281C2A87DD00A31D8E /* AppDelegate.m */,
 				1A44792A1C2A87DD00A31D8E /* ViewController.h */,
 				1A44792B1C2A87DD00A31D8E /* ViewController.m */,
+				A8D118BD1C2AE2D800D416EE /* testCell.h */,
+				A8D118BE1C2AE2D800D416EE /* testCell.m */,
+				A8D118C01C2AE5C200D416EE /* testCell.xib */,
 				1A44792D1C2A87DD00A31D8E /* Main.storyboard */,
 				1A4479301C2A87DD00A31D8E /* Assets.xcassets */,
+				A8D118C41C2AE71400D416EE /* 1.jpg */,
 				1A4479321C2A87DD00A31D8E /* LaunchScreen.storyboard */,
 				1A4479351C2A87DD00A31D8E /* Info.plist */,
 				1A4479241C2A87DD00A31D8E /* Supporting Files */,
@@ -243,7 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D118C51C2AE71400D416EE /* 1.jpg in Resources */,
 				1A4479341C2A87DD00A31D8E /* LaunchScreen.storyboard in Resources */,
+				A8D118C11C2AE5C200D416EE /* testCell.xib in Resources */,
 				1A4479311C2A87DD00A31D8E /* Assets.xcassets in Resources */,
 				1A44792F1C2A87DD00A31D8E /* Main.storyboard in Resources */,
 			);
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A44792C1C2A87DD00A31D8E /* ViewController.m in Sources */,
+				A8D118BF1C2AE2D800D416EE /* testCell.m in Sources */,
 				1A4479291C2A87DD00A31D8E /* AppDelegate.m in Sources */,
 				1A4479261C2A87DD00A31D8E /* main.m in Sources */,
 			);
@@ -498,6 +512,7 @@
 				1A4479501C2A87DD00A31D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A4479511C2A87DD00A31D8E /* Build configuration list for PBXNativeTarget "HeadImageScale-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				1A4479531C2A87DD00A31D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A4479541C2A87DD00A31D8E /* Build configuration list for PBXNativeTarget "HeadImageScale-demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				1A4479561C2A87DD00A31D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
